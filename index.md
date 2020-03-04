@@ -6,7 +6,8 @@ description: ""
 permalink: /
 ---
 
-# AWS lAMP STACK Setup
+# Amazon AWS LAMP stack setup  
+{: .text-purple-000}
 {: .fs-9 }
 
 An user manual for setting up the environment on Amazon AWS for web application deployment
@@ -20,12 +21,12 @@ An user manual for setting up the environment on Amazon AWS for web application 
 
 ## Sections
 
-### Virtual Machine on AWS
+### Ubuntu virtual machine on AWS
 
 
-### Configuring VM
+### Configuring virtual machine
 
-### Web Servers
+### Web servers
 1. Apache  
 2. Nodejs and Expressjs  
 3. Nginx  
@@ -34,7 +35,7 @@ An user manual for setting up the environment on Amazon AWS for web application 
 1. MySQL  
 2. MongoDB  
 
-### Docker and Docker Compose
+### Docker and docker compose
 
 ## About the manual
 
@@ -50,5 +51,5 @@ Read more about becoming a contributor in [our GitHub repo]().
 
 
 
-### Code of Conduct
+### Code of conduct
 
