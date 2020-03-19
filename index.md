@@ -24,7 +24,7 @@ permalink: /
 ### Databases
 1. MySQL  
 2. MongoDB  
-3. 
+
 ### EC2 instance configuration
 
 ### Docker and docker compose
