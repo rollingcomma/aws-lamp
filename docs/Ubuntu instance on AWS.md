@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ubuntu Instance on AWS
-nav_order: 1
+nav_order: 2
 ---
 
 # Navigation Structure
