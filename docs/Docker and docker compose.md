@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Docker and Docker Compose
-nav_order: 5
+nav_order: 6
 ---
 
 # Navigation Structure
