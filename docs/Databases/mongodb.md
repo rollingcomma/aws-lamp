@@ -5,7 +5,7 @@ parent: Databases
 nav_order: 2
 ---
 
-# Navigation Structure
+# MongoDB Database
 {: .no_toc }
 
 ## Table of contents

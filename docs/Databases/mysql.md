@@ -5,7 +5,7 @@ parent: Databases
 nav_order: 1
 ---
 
-# Navigation Structure
+# MySQL Database
 {: .no_toc }
 
 ## Table of contents

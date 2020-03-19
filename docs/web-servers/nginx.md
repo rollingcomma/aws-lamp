@@ -5,7 +5,7 @@ parent: Web Servers
 nav_order: 2
 ---
 
-# Navigation Structure
+# Nginx Web Server
 {: .no_toc }
 
 ## Table of contents

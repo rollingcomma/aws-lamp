@@ -5,7 +5,7 @@ parent: Web Servers
 nav_order: 1
 ---
 
-# Navigation Structure
+# Apache Web Server
 {: .no_toc }
 
 ## Table of contents
