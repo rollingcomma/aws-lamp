@@ -4,7 +4,7 @@ title: EC2 Instance Configuration
 nav_order: 5
 ---
 
-# Navigation Structure
+# EC2 Instance Configuration
 {: .no_toc }
 
 ## Table of contents
@@ -14,8 +14,3 @@ nav_order: 5
 {:toc}
 
 ---
-Login
-```bash
-$ scp -i <key.pem> filename <instance>:/folder
-```
-check the permission of the folder to allow your write

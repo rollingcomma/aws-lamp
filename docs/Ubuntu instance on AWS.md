@@ -4,7 +4,7 @@ title: Ubuntu Instance on AWS
 nav_order: 2
 ---
 
-# Navigation Structure
+# Ubuntu instance on AWS
 {: .no_toc }
 
 ## Table of contents

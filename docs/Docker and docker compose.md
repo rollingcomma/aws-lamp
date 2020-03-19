@@ -4,7 +4,7 @@ title: Docker and Docker Compose
 nav_order: 6
 ---
 
-# Navigation Structure
+# Docker and docker compose
 {: .no_toc }
 
 ## Table of contents
