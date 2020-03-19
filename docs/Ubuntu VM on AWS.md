@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Ubuntu Instance on AWS
+title: Ubuntu Virtual Machine on AWS
 nav_order: 2
 ---
 
-# Ubuntu instance on AWS
+# Ubuntu Virtual Machine on AWS
 {: .no_toc }
 
 ## Table of contents

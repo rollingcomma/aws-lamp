@@ -16,9 +16,6 @@ permalink: /
 
 ### Ubuntu virtual machine on AWS
 
-
-### Configuring virtual machine
-
 ### Web servers
 1. Apache  
 2. Nodejs and Expressjs  
@@ -27,6 +24,8 @@ permalink: /
 ### Databases
 1. MySQL  
 2. MongoDB  
+3. 
+### EC2 instance configuration
 
 ### Docker and docker compose
 
@@ -34,15 +33,3 @@ permalink: /
 
 
 ### License
-
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
-Read more about becoming a contributor in [our GitHub repo]().
-
-
-
-### Code of conduct
-
