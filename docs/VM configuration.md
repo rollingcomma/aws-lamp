@@ -1,3 +1,19 @@
+---
+layout: default
+title: EC2 Instance Configuration
+nav_order: 4
+---
+
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 Login
 ```bash
 $ scp -i <key.pem> filename <instance>:/folder

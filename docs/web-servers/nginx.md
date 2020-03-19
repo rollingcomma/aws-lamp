@@ -1,3 +1,21 @@
+---
+layout: default
+title: Nginx 
+parent: Web Servers
+nav_order: 2
+---
+
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 # Introduction
 Nginx was first released in 2004, nine years later than Apache; however, it has surpassed Apache since 2016 and become the most widely used web server in the world. Besides being a web server, it can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache, and load balancer is the most popular usage that can be found in modern web stack. 
 

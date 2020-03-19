@@ -1,3 +1,21 @@
+---
+layout: default
+title: MySQL
+parent: Databases
+nav_order: 1
+---
+
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 # Introduction
 MySQL is s an open-source relational database management system. It was first released in 1995, since then it is gradually become the most popular DBMS - database management system.  
 The latest release, 8.0 on April, 2018, introduced a great feature of Document Store. We now are able to store our JSON documents into collections and manage them using CRUD operations. The CRUD stands for cut, read, update, and delete.

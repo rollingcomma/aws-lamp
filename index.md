@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: ""
+description: "This Manual introduce basic setting up a LAMP stack on Amazon Web Services (AWS)"
 permalink: /
 ---
 

@@ -1,3 +1,21 @@
+---
+layout: default
+title: MongoDB
+parent: Databases
+nav_order: 2
+---
+
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 # Introduction
 MongoDB, first released in 2009, is the most widely used NoSQL database. It is ranked first among document-oriented databases by DB-Engines. 
 
