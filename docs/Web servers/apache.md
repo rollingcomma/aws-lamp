@@ -5,16 +5,18 @@ Apache is open sourced, which means anyone can adapt the source code for specifi
 
 Some widely used features are:
 - Static content serving
-It enables automatically handling of static files, index files, auto-indexing and content negotiation  
+It enables automatically handling of static files, index files, auto-indexing and content negotiation.  
 - Virtual hosting
-It allows a single Apache server serve many different websites
-- mod-gzip
-An external module, used for compression or decompression, helps reduce of the size (weight) of web pages served over HTTP.
+It allows a single Apache server serves many different websites.
+- Mod-gzip
+An external module, used for compression or decompression, helps reduce the size (weight) of web pages served over HTTP.
 
 We will introduce the first two features at the configuration section.
 
 # Installation
-**Step 1.** open a terminal, login to our AWS ubuntu instance
+The first two steps are the same for all the installation guidance.
+
+**Step 1.** open a terminal, login to our AWS ubuntu instance.
 ![login](../../assets/images/login.png)
 
 **Step 2.** (optional) update the repositories and the ubuntu EC2 instance, if we haven't done it when we first login.
@@ -28,19 +30,21 @@ $ sudo apt-get install apache2 -y
 ```
 ![install](../../assets/images/install.png)
 
-**Step 4.** check whether we are able to access the web server by entering the public dns or IP address of our instance in any browser.
+**Step 4.** Verify the installation succeeded.
+We can enter the public dns or IP address of our instance in any browser to check if we are able to access the web server.
+
 > Trouble shooting:
 If it fails to open the default page, we can further check from two aspects:
 >1. Whether the Apache server is running.
->2. Does the security group of our instance have HTTP port 80 open.  
-
-
-**Step 5.** By default, Apache server will start automatically after installation, but we can check if the apache server is running by enter the command. 
+>2. Does the security group of our instance have HTTP port 80 open.
+  
+**Step 5.** Verify the Apache server is running.
+By default, Apache server will start automatically after installation, but we can check if the apache server is running by entering the command. 
 ```bash
-$ sudo systemctl status apache2.service
+$ systemctl status apache2.service
 ```
 ![server](../../assets/images/server.png)
-The screenshot above shows the server is running, if it shows opposite, enter the command below to start the server
+The screenshot above shows the server is running, if it shows opposite, enter the command below to start the server.
 ```bash
 $ sudo systemctl start apache2.service
 ```
@@ -52,7 +56,7 @@ $ sudo systemctl stop apache2.service
 $ sudo systemctl restart apache2.service
 ```
 
-**Step 6.** check if the security group of our instance has the HTTP port 80 added in the inbound rules.
+**Step 6.** Check if the security group of our instance has the HTTP port 80 added in the inbound rules.
 - Go to the AWS management console, 
 ![console](../../assets/images/console.png)
 - click EC2, 
@@ -99,10 +103,10 @@ The tree structured files allow us to category the configuration and group the m
 
 We normally do not need to change most of default configurations, there are two files that we may modify to suit our purpose.
 *port.conf* defines which port the server is listening to for incoming request.
-By default, port 80 reserve for HTTP, and port 443 for HTTPS, if we want our server to listen to other port, we can modify this file.
+By default, port 80 reserve for HTTP, and port 443 for HTTPS, if we want our server to listen to other port, we can modify it here.
 ![port](../../assets/images/port.png)
 
 *000-default.conf*, located within the folder site-enabled, contains all the configuration of virtual host. Apache server has not set a limit about how many virtual host a single server can handle. 
-We can add as many as we like as long as the performance meets the expectation. Each virtual host is identified by ServerName and port.
+We can add as many as the performance meets our expectation. Each virtual host is identified by ServerName and port.
 
 ![](../../assets/images/virtual_host.png)

@@ -7,13 +7,6 @@ permalink: /
 ---
 
 # Amazon AWS LAMP stack setup  
-{: .text-purple-000}
-{: .fs-9 }
-
-An user manual for setting up the environment on Amazon AWS for web application deployment
-{: .fs-6 .fw-300 }
-
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
