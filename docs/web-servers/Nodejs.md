@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Node.js 
+title: Node.js web server
 parent: web Servers
 nav_order: 3
 ---

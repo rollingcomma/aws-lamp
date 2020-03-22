@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Apache
+title: Apache web server
 parent: web Servers
 nav_order: 1
 ---
 
-# Apache web Server
+# Apache web werver
 {: .no_toc }
 
 ## Table of contents
