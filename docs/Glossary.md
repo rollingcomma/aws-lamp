@@ -15,7 +15,7 @@ nav_order: 7
 AWS stands for Amazon Web Services, the cloud computing platform we will use for our LAMP stack.
 
 **SSH**
-SSH stands for Secure Shell which provides a secure route for your local machine to connect to your Ubuntu Instance on AWS.
+SSH stands for Secure Shell, a network protocol which provides a secure route for connecting to networked machines.
 
 **CRUD**
 The acronym CRUD  stands for create, read/retrieve, update and delete. It refers to four major operations that are implemented in relational database applications. 
