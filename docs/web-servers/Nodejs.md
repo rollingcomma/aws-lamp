@@ -18,15 +18,7 @@ nav_order: 3
 
 
 # Introduction
-Node.js, first released in 2009, is a cross-platform runtime for running server-side JavaScript applications. Although it only shares a tiny portion of web servers market currently, there are many advantages that make Node.js one of the popular modern web development technologies. 
 
-First, the benefit of using single language covering the full web development cycle from front-end development (client side) to back-end development (server side) does not only shorten the learning curve, but also simplifier the deployment. 
-
-Second, Node.js uses single-threaded, non-blocking, asynchronous event-driven mechanism, which proved to be efficient in memory allocation as well as handling requests.
-
-Moreover, Node.js is open sourced, and has a large and active community of developers who keep on continuously contributing towards its further development and improvement.
-
-Although Node.js is not a part of LAMP stack, because of all the reasons mentioned above, we decide to include a basic installation guide to our user manual. 
 
 # Installation
 The first two steps are the same for all the installation guidance.
@@ -34,7 +26,8 @@ The first two steps are the same for all the installation guidance.
 **Step 1.** Open a terminal, login to our AWS ubuntu instance.
 ![login](../../assets/images/login.png)
 
-**Step 2.** (optional) Update the repositories and the ubuntu EC2 instance, if we haven't done it when we first login.
+**Step 2.** (optional) Update the repositories and the ubuntu EC2 instance.
+This step is needed only if we haven't done it when we first login.
 ```bash
 $ sudo apt update -y && sudo apt upgrade -y
 ```
@@ -72,8 +65,11 @@ $ node --version
 The command prints out the node version installed.
 ![node-version](../../assets/images/node-version.png)
 
-**Step 7.** (optional) Install AWS SDK for Javascript.
-Node.js provides a collection of built-in modules, as well as huge amount of third party code that we can use to build application; however if we plan to integrate more AWS services into our application, we need to install AWS SDK for Javascript.
+After finishing all the steps above, the environment is ready for building Node.js application.
+
+# AWS SDK for Javascript
+
+Node.js provides a collection of built-in modules, as well as huge amount of third party code that we can use to build application; however if we plan to integrate more AWS services, such as Amazon S3, DynamoDB, into our application, we need to install AWS SDK for Javascript.
 
 AWS SDK for Javascript is a JavaScript API Amazon provides for accessing AWS services. The image below shows the services that are available in the SDK.
 ![sdk](../../assets/images/sdk.png)
@@ -86,29 +82,8 @@ If we just created our project folder, make sure to type *npm init -y* first to 
 
 ![sdk-install](../../assets/images/sdk-install.png)
 
-After finishing all the steps above, the environment is ready for coding Node.js application.
+More information about the SDK can be found on [Amazon SDK for javascript in Nodejs.](https://aws.amazon.com/sdk-for-node-js/)
 
-# Configuration / Example
-not finished yet
+# Conclusion
 
-```javascript
-//app.js
-const express = require("express"),
-      app = express();
-      
-module.exports = (database) => {
-    const dbQuery = require("./query")(database);
-    app.use("/", dbQuery);
-    return app;
-};
-
-//server.js
-const database = require("../database/DB");
-const app = require("./app")(database);
-const port = process.env.PORT || 8080;
-
-app.listen(port, () => {
-	console.log(`\nServer running at ${port}`);
-});
-
-```
+Being different from other two web servers introduced in this user manual, the installation success of Nodejs on AWS only gives us a runtime environment which allows us to build our application in Javascript, including create a server. At this stage, therefore, we can code our program from start within this environment, or deploy our pre-build project into it.
