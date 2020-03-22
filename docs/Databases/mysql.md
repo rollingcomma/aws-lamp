@@ -17,14 +17,12 @@ nav_order: 1
 ---
 
 # Introduction
-MySQL is s an open-source relational database management system. It was first released in 1995, since then it is gradually become the most popular DBMS - database management system.  
-The latest release, 8.0 on April, 2018, introduced a great feature of Document Store. We now are able to store our JSON documents into collections and manage them using CRUD operations. The CRUD stands for cut, read, update, and delete.
 
 There are various options to deploy MySQL database on Amazon cloud services, below lists two popular ways:
 - Install MySQL on AWS EC2 instance,
 - Create a DB instance on Amazon RDS.  
   
-This manual focuses on deploying web stack environment on AWS, so we only introduce the first option.
+This manual focuses on deploying web stack environment on AWS, so we only introduce 
 
 # Installation
 The first two steps are the same for all the installation guidance.
@@ -32,7 +30,8 @@ The first two steps are the same for all the installation guidance.
 **Step 1.** Open a terminal, login to our AWS ubuntu instance.
 ![login](../../assets/images/login.png)
 
-**Step 2.** (optional) Update the repositories and the ubuntu EC2 instance, if we haven't done it when we first login.
+**Step 2.** (optional) Update the repositories and the ubuntu EC2 instance.
+This step is needed only if we haven't done it when we first login.
 ```bash
 $ sudo apt update -y && sudo apt upgrade -y
 ```
@@ -105,3 +104,7 @@ $ nano msqld.cnf
 ![config](../../assets/images/sql_conf_1.png)
 
 For example, the *bind-address* is set to 127.0.0.1 which is reserved for localhost (internal). We can change it to any IP address to which we want to grant the access right to our server, or 0.0.0.0 for allowing access from all IP address.
+
+# Conclusion
+
+Reaching here, we not only have Our MySQL database ready for development, but also know the location and content of its configuration file that we can modify as needed.
