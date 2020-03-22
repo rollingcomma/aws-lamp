@@ -44,7 +44,7 @@ MongoDB, first released in 2009, is the most widely used NoSQL database. It is r
 ### Docker and docker compose
 
 ### References
-[Getting started with AWS EC2](https://aws.amazon.com/ec2/getting-started/)
-[Install MongoDB Community Edition](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+[Getting started with AWS EC2](https://aws.amazon.com/ec2/getting-started/)  
+[Install MongoDB Community Edition](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)  
 [Setting up Nginx and Nginx Plus as a web server and reverse proxy on AWS](https://www.nginx.com/blog/setting-up-nginx/)
 
