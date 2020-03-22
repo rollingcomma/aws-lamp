@@ -8,11 +8,5 @@ permalink: docs/troubleshooting
 
 # Trouble Shooting
 {: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
+ <br> 
+{: .fs-6 .fw-300 }
