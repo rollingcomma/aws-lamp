@@ -14,7 +14,7 @@ nav_order: 2
 ---
 
 
-Follow this section to launch an Ubuntu instance on AWS EC2 🙌
+Follow this section to launch and connect to an Ubuntu instance on AWS EC2 🙌
 
 ## Introduction
 First let's clarify what these abbreviations mean:
