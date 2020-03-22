@@ -1,68 +1,42 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions"><img src="https://github.com/pmarsceill/just-the-docs/workflows/CI/badge.svg" alt="Build status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+## LAMP stack on AWS user manual project
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+### Contributors:
+- Chris Ng
+  - Ubuntu Instance on AWS
+  - Ubuntu Instance Configuration
+  - Docker and docker compose
+- Sherlyn Zhang 
+  -  Web servers
+  -  Databases
+  -  Trouble shooting
 
-## Installation
+### Purposes
+This project is for an assignment from BCIT business communication course. The original purpose is learning markdown syntax and practicing technical writing; however, as students on the road towards full stack developers, we decide to choose a topic that is tightly connected to our study domain, so we can append new chapters as we are continuing receiving fresh knowledge. It can serve as a notebook to ourself as well as an entrance level guidance for new web developing beginners. 
 
-Add this line to your Jekyll site's Gemfile:
+### Theme and style guide:
 
-```ruby
-gem "just-the-docs"
-```
+**Theme:** [Jekyll just-the-doc](https://pmarsceill.github.io/just-the-docs/)
 
-And add this line to your Jekyll site's `_config.yml`:
+**Style guide:** [Google developer documentation style guide](https://developers.google.com/style/)
 
-```yaml
-theme: just-the-docs
-```
+### Tools 
+- vscode: text editor 
+- slack: communication app for sharing idea and tracing progress with team members
+- github: version control and collaborating tool with team members
 
-And then execute:
+### Content
+This user manual covers the whole process of setting up a LAMP stack on AWS. The side nav bar lists all sections in sequential order, from creating and configuring an Ubuntu EC2 instance on AWS, to installing web servers and databases on the instance created. The web servers and databases sections provides multiple popular 
 
-    $ bundle
 
-Or install it yourself as:
+### Difficulties encountered
+We experienced some difficulties while carrying out the project. 
 
-    $ gem install just-the-docs
+The first difficulty is choosing the topic. We have to evaluate our capability and knowledge pool, so we can pick something that is challenging enough but still reachable.
 
-## Usage
+The second is deciding the target readers. We would like to make our user manual beginners friendly; however, the topic does require some background knowledge to avoid diving into too much details at every aspects. Thus we assume our main target audience have general ideal of web development, such as the popular technologies, and terms.
 
-[View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
+The third is drawing the dimension that we plan to dig into our subject vertically and horizontally, since each sub topic can be expanded as a whole project if we go deep enough.
 
-## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-### Submitting code changes:
 
-- Open a [Pull Request](https://github.com/pmarsceill/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
-
-### Design and development principles of this theme:
-
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
