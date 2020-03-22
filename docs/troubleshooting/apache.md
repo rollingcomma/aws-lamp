@@ -2,6 +2,7 @@
 layout: default
 title: Apache Trouble Shooting
 nav_order: 1
+parent: Trouble Shooting
 ---
 
 # Apache Trouble Shooting

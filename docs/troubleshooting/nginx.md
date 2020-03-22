@@ -2,6 +2,7 @@
 layout: default
 title: Nginx Trouble Shooting
 nav_order: 2
+parent: Trouble Shooting
 ---
 
 # Nginx Trouble Shooting
