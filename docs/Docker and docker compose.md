@@ -1,5 +1,4 @@
-# Intro
-=======
+
 ---
 layout: default
 title: Docker and Docker Compose
