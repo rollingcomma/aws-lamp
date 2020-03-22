@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Node.js web server
-parent: web Servers
+parent: Web servers
 nav_order: 3
 ---
 
-# Node.js web Server
+# Node.js web server
 {: .no_toc }
 
 ## Table of contents
