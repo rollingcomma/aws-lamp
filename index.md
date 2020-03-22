@@ -37,21 +37,26 @@ This section will cover the configuration of the Elastic Block Storage (EBS) and
 A Web server can be software or hardware, or both of them working together to host websites. It's one of the core components of web stack. In this manual, we introduce the installation and setup of three top open-source web servers. 
  
 1. [Apache HTTP Server](/docs/web-servers/apache.md)
+
     Apache HTTP Server is one of the most popular open sourced web servers used in serving websites. It is written in C and XML, and was initially released on 1995. Its' large community contributes a variety of features, and many are implemented as external extensions or add-ons above the core functionalities. Our user manual covers two features besides the basic installation and configuration guidance.
 <br>
 1. [Nginx](/docs/web-servers/nginx.md)
+
     Nginx was first released in 2004, nine years later than Apache; however, it has surpassed Apache since 2016 and become the most widely used web server in the world. Besides being a web server, it can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache, and load balancer is the most popular usage that can be found in modern web stack. 
 <br>
 3. [Node.js](docs/web-servers/Nodejs.md)
+
     Node.js, first released in 2009, is a cross-platform runtime for running server-side JavaScript applications. Although it only shares a tiny portion of web servers market currently, there are many advantages, such as single language on full stack development and high efficiency, make Node.js one of the popular modern web development technologies. 
 
 ### Databases
 A Database is an organized collection of data that stored in a computer system. When talking about database in web development, we also refer it as the software that manages and manipulates the data, and interacts with end user. We include two databases setting guide: one supports the dominant relational database model - MySQL; another is the most popular NoSQL database - MongoDB.
 
 1. [MySQL](/docs/databases/mysql.md) 
+
 MySQL was first released in 1995, since then it has gradually become the most popular open source relational database. The latest release, 8.0 on April, 2018, introduced a great feature of Document Store, which enable us to store our JSON documents into collections and manage them using CRUD operations. 
 <br>
 1. [MongoDB](/docs/databases/mongodb.md) 
+
 MongoDB, first released in 2009, is the most widely used NoSQL database. It is ranked first among document-oriented databases by DB-Engines. Being different from relational database using tables and restricted schema, MongoDB stores data objects as JSON-like documents inside a collection, thus it supports flexible data model that can accommodate data of any structure. 
 
 
