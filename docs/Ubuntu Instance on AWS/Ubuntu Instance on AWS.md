@@ -87,4 +87,4 @@ Now you have launched a Ubuntu Instance on AWS EC2,
 setup your machine to connect to your
 instance, and connected to your instance over ssh.
 
-Next we will begin to go over how to setup a LAMP stack on your instance.
+Next we will configure our instance to enhance usability.
