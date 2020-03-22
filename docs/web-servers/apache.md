@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apache web server
-parent: web Servers
+parent: Web servers
 nav_order: 1
 ---
 
