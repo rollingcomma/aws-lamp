@@ -18,38 +18,38 @@ nav_order: 2
 
 # Introduction
 
-The ways Amazon provides for deployment of MongoDB DB are similar to MySQL, we only cover the installation on EC2 instance in this manual.
+The ways Amazon provides for deployment of MongoDB DB are similar to MySQL, either deploy on AWS EC2 instance, or create a DB instance on AWS RDS service. You will learn the first way through the following steps.
 
 # Installation
 The first two steps are the same for all the installation guidance.
 
-**Step 1.** Open a terminal, login to our AWS ubuntu instance.
+1. Open a terminal, login to our AWS ubuntu instance.
 ![login](../../assets/images/login.png)
 
-**Step 2.** (optional) Update the repositories and the ubuntu EC2 instance.
-This step is needed only if we haven't done it when we first login.
+2. (optional) Update the repositories and the ubuntu EC2 instance.
+This step is needed only if you haven't done it when you first login.
 ```bash
 $ sudo apt update -y && sudo apt upgrade -y
 ```
 ![upadate](../../assets/images/update.png)
 
-**Step 3.** Download MongoDB PGP  public key.
+3. Download MongoDB PGP public key.
 ```bash
 $ sudo wget https://www.mongodb.org/static/pgp/server-4.2.asc
 ```
 ![download key](../../assets/images/mongo-key.png)
 
-The PGP (Pretty Good Privacy) public key file looks like below:
+The PGP (Pretty Good Privacy) is an encryption software, you can check detail definition in [Glossary](../Glossary.md). The encrypted public key file looks like below:
 ![key](../../assets/images/mongo-key2.png)
 
-**Step 4.** Add the key to APT key management utility.
+4. Add the key to APT key management utility.
 
 ```bash
 $ sudo apt-key add server-4.2.asc
 ```
 It shall return OK.
 
-**Step 5.** Create a list file for MongoDB. 
+5. Create a list file for MongoDB. 
 Use any text editor to open the source.list file in the directory */etc/apt*
 ```bash
 $ cd /etc/apt
@@ -62,32 +62,32 @@ deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/
 ```
 ![edit](../../assets/images/mongo-source.png)
 
-**Step 6.** Update local package database
+6. Update local package database
 ```bash
 $ sudo apt-get update
 ```
 ![update](../../assets/images/mongo-update.png)
 
-**Step 7.** Install MongoDB
+7. Install MongoDB
 ```bash
 $ sudo apt-get install -y mongodb-org
 ```
 ![install](../../assets/images/mongo-install.png)
 
 
-**Step 8.** Start MongoDB service
+8. Start MongoDB service
 ```bash
 $ sudo systemctl start mongod
 ```
 
-**Step 9.** Verify if MongoDB has started successfully
+9. Verify if MongoDB has started successfully
 ```bash
 $ sudo systemctl status mongod
 ```
 ![status](../../assets/images/mongo-status.png)
 
 # Configuration
-The configuration file *mongod.conf* is stored in /etc/ directory. The default setting only consists basic configuration, such as storage path, system log, and network interfaces. We can modify the parameters to suit our need. 
+The configuration file *mongod.conf* is stored in /etc/ directory. The default setting only consists basic configuration, such as storage path, system log, and network interfaces. you can modify the parameters to suit your need. 
 
 ```bash
 $ cd /etc/mysql/mysql.conf.d
@@ -95,10 +95,10 @@ $ nano msqld.cnf
 ```
 ![config](../../assets/images/mongo-conf.png)
 
-For example, the *bind-address* is set to 127.0.0.1 by default which is reserved for localhost (internal). We can change it to any IP address to which we want to grant the access right to our server, or 0.0.0.0 for allowing access from all IP address.
+For example, the *bind-address* is set to 127.0.0.1 by default which is reserved for localhost (internal). you can change it to any IP address to which you want to grant the access right to our server, or 0.0.0.0 for allowing access from all IP address.
 
-Besides all pre-defined setting, the *mongod.conf* file also lists some options that we can add, like security policy, or replication and sharding. More information can be found on MongoDB [official website.](https://docs.mongodb.com/manual/)
+Besides all pre-defined setting, the *mongod.conf* file also lists some options that you can add, like security policy, or replication and sharding. More information can be found on MongoDB [official youbsite.](https://docs.mongodb.com/manual/)
 
 # Conclusion
 
-At this stage, We have a MongoDB database running on our AWS Ubuntu virtual machine that is ready for basic database development. We also get an idea on where to look at if we need to change its configuration.
+At this stage, you have a MongoDB database running on our AWS Ubuntu virtual machine that is ready for basic database development. you also get an idea on where to look at if you need to change its configuration.
