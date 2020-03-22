@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nginx web server
-parent: web Servers
+parent: Web servers
 nav_order: 2
 ---
 
