@@ -19,6 +19,7 @@ nav_order: 3
 
 # Introduction
 
+Node.js is a JavaScript runtime which allows developers to build web application using Javascript from front-end to back-end. This manual introduces the process to setup the Node.js environment on AWS, as well as the installation of AWS SDK for javascript as an option.
 
 # Installation
 The first two steps are the same for all the installation guidance.
