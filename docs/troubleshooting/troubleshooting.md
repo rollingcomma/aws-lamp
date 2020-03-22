@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Trouble Shooting
+title: Troubleshooting
 nav_order: 6
 has_children: true
 permalink: docs/troubleshooting
 ---
 
-# Trouble Shooting
+# Troubleshooting
 {: .no_toc }
  <br> 
 {: .fs-6 .fw-300 }

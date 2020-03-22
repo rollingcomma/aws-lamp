@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Apache Trouble Shooting
-parent: Trouble Shooting
+title: Apache Troubleshooting
+parent: Troubleshooting
 nav_order: 1
 ---
 
-# Apache Trouble Shooting
+# Apache Troubleshooting
 {: .no_toc }
 
 ## Table of contents
@@ -16,7 +16,7 @@ nav_order: 1
 
 ---
 
-### Trouble shooting:
+### Troubleshooting:
 By default, Apache server will start automatically after installation.If the default page does not show after installation, you can further check from two aspects:
 >1. Whether the Apache server is running.
 >2. Does the security group of our instance have HTTP port 80 open.

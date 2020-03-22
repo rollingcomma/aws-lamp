@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Nginx Trouble Shooting
-parent: Trouble Shooting
+title: Nginx Troubleshooting
+parent: Troubleshooting
 nav_order: 2
 ---
 
-# Nginx Trouble Shooting
+# Nginx Troubleshooting
 {: .no_toc }
 
 ## Table of contents
@@ -15,7 +15,7 @@ nav_order: 2
 {:toc}
 
 ---
-### Trouble shooting
+### Troubleshooting
 If the server does not start properly, you can use below command to check the server status.
 
 ```bash

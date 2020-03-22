@@ -86,7 +86,7 @@ $ sudo service nginx start
 Check whether you are able to access the default web page by entering the public dns or IP address of our instance in any browser. If the page below shows, **congratulation!**, you have installed Nginx successfully.
 ![default-page](../../assets/images/default-nginx.png)
 
-If it fails to open the default page, check the [trouble shooting](/docs/troubleshooting/nginx.md) section for solution.
+If it fails to open the default page, check the [troubleshooting](/docs/troubleshooting/nginx.md) section for solution.
 
 # Configuration
 
