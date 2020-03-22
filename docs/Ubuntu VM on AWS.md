@@ -1,12 +1,10 @@
-# Intro
-=======
 ---
 layout: default
-title: Docker and Docker Compose
-nav_order: 6
+title: Ubuntu Virtual Machine on AWS
+nav_order: 2
 ---
 
-# Docker and docker compose
+# Ubuntu Virtual Machine on AWS
 {: .no_toc }
 
 ## Table of contents

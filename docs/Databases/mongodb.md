@@ -1,7 +1,22 @@
-# Introduction
-MongoDB, first released in 2009, is the most widely used NoSQL database. It is ranked first among document-oriented databases by DB-Engines. 
+---
+layout: default
+title: MongoDB
+parent: Databases
+nav_order: 2
+---
 
-Being different from relational database using tables and restricted stable schema, MongoDB stores data objects as JSON-like documents inside a collection, thus it supports flexible data model that can accommodate data of any structure. 
+# MongoDB Database
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+# Introduction
 
 The ways Amazon provides for deployment of MongoDB DB are similar to MySQL, we only cover the installation on EC2 instance in this manual.
 
@@ -11,7 +26,8 @@ The first two steps are the same for all the installation guidance.
 **Step 1.** Open a terminal, login to our AWS ubuntu instance.
 ![login](../../assets/images/login.png)
 
-**Step 2.** (optional) update the repositories and the ubuntu EC2 instance, if we haven't done it when we first login.
+**Step 2.** (optional) Update the repositories and the ubuntu EC2 instance.
+This step is needed only if we haven't done it when we first login.
 ```bash
 $ sudo apt update -y && sudo apt upgrade -y
 ```
@@ -33,7 +49,7 @@ $ sudo apt-key add server-4.2.asc
 ```
 It shall return OK.
 
-**Step 5.** Create a list file for MongoDB
+**Step 5.** Create a list file for MongoDB. 
 Use any text editor to open the source.list file in the directory */etc/apt*
 ```bash
 $ cd /etc/apt
@@ -82,3 +98,7 @@ $ nano msqld.cnf
 For example, the *bind-address* is set to 127.0.0.1 by default which is reserved for localhost (internal). We can change it to any IP address to which we want to grant the access right to our server, or 0.0.0.0 for allowing access from all IP address.
 
 Besides all pre-defined setting, the *mongod.conf* file also lists some options that we can add, like security policy, or replication and sharding. More information can be found on MongoDB [official website.](https://docs.mongodb.com/manual/)
+
+# Conclusion
+
+At this stage, We have a MongoDB database running on our AWS Ubuntu virtual machine that is ready for basic database development. We also get an idea on where to look at if we need to change its configuration.

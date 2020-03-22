@@ -1,12 +1,10 @@
-# Intro
-=======
 ---
 layout: default
-title: Docker and Docker Compose
-nav_order: 6
+title: EC2 Instance Configuration
+nav_order: 5
 ---
 
-# Docker and docker compose
+# EC2 Instance Configuration
 {: .no_toc }
 
 ## Table of contents

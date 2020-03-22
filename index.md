@@ -2,47 +2,49 @@
 layout: default
 title: Home
 nav_order: 1
-description: ""
+description: "This Manual introduces the process on setting up a LAMP stack on Amazon Web Services (AWS)"
 permalink: /
 ---
 
-# Amazon AWS LAMP stack setup  
+# AWS LAMP Stack Setup User Manual
 
 ---
 
 ## Introduction
+Welcome to AWS LAMP stack setup user manual. This user manual is designed for new web developers who plan to develop or deploy their web applications on Amazon Web Services (AWS). 
+
+As AWS provides huge amount of solutions for implementing various web stacks, the official documentation on AWS is overwhelming for beginners; therefore, we create this user manual dedicated mostly on LAMP stack. Although this manual has referred multiple sections from official documents of AWS as well as that of associated technologies, such as MongoDB and Nginx, we try to improve the understandability by adding more screenshots and explanation for the commands and codes used.
 
 ## Sections
 
 ### Ubuntu virtual machine on AWS
 
-
-### Configuring virtual machine
-
 ### Web servers
-1. Apache  
-2. Nodejs and Expressjs  
-3. Nginx  
-   
+ 
+1. [Apache HTTP Server](/docs/web-servers/apache.md)
+    Apache HTTP Server is one of the most popular open sourced web servers used in serving websites. It is written in C and XML, and was initially released on 1995. Its' large community contributes a variety of features, and many are implemented as external extensions or add-ons above the core functionalities. Our user manual covers two features besides the basic installation and configuration guidance.
+<br>
+1. [Nginx](/docs/web-servers/nginx.md)
+    Nginx was first released in 2004, nine years later than Apache; however, it has surpassed Apache since 2016 and become the most widely used web server in the world. Besides being a web server, it can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache, and load balancer is the most popular usage that can be found in modern web stack. 
+<br>
+3. [Node.js](docs/web-servers/Nodejs.md)
+    Node.js, first released in 2009, is a cross-platform runtime for running server-side JavaScript applications. Although it only shares a tiny portion of web servers market currently, there are many advantages, such as single language on full stack development and high efficiency, make Node.js one of the popular modern web development technologies. 
+
 ### Databases
-1. MySQL  
-2. MongoDB  
+We include two databases setting guide: one supports the dominant relational database model - MySQL; another is the most popular NoSQL database - MongoDB.
+
+1. [MySQL](/docs/databases/mysql.md) 
+MySQL was first released in 1995, since then it has gradually become the most popular open source relational database. The latest release, 8.0 on April, 2018, introduced a great feature of Document Store, which enable us to store our JSON documents into collections and manage them using CRUD operations. 
+<br>
+1. [MongoDB](/docs/databases/mongodb.md) 
+MongoDB, first released in 2009, is the most widely used NoSQL database. It is ranked first among document-oriented databases by DB-Engines. Being different from relational database using tables and restricted schema, MongoDB stores data objects as JSON-like documents inside a collection, thus it supports flexible data model that can accommodate data of any structure. 
+
+### EC2 instance configuration
 
 ### Docker and docker compose
 
-## About the manual
-
-
-### License
-
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
-Read more about becoming a contributor in [our GitHub repo]().
-
-
-
-### Code of conduct
+### References
+[Getting started with AWS EC2](https://aws.amazon.com/ec2/getting-started/)  
+[Install MongoDB Community Edition](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)  
+[Setting up Nginx and Nginx Plus as a web server and reverse proxy on AWS](https://www.nginx.com/blog/setting-up-nginx/)
 
