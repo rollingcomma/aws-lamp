@@ -73,7 +73,7 @@ go ahead and try entering `ls` and `cd` commands to navigate the filesystem.
 
 ---
 
-## Next Steps
+## Conclusion and Next Steps
 Now you have launched a Ubuntu Instance on AWS EC2,
 setup your machine to connect to your
 instance, and connected to your instance over ssh.

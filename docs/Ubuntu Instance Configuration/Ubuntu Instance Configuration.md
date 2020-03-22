@@ -82,7 +82,7 @@ Then test out your Elatic IP connection by connecting with the follwing command:
 
 ---
 
-## Next Steps
+## Conclusion and Next Steps
 Now your EC2 Instance is configured to be easily accesible over SSH and scalable for all your storage needs.
 
 Go ahead and play around with your EC2 Instance or better yet deploy a Web Server or Database by following the next sections 😊!
