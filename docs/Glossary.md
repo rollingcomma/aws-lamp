@@ -12,7 +12,7 @@ nav_order: 7
 
 ---
 **AWS**
-AWS stands for Amazon Web Services, the service we will use for our LAMP stack.
+AWS stands for Amazon Web Services, the cloud computing platform we will use for our LAMP stack.
 
 **SSH**
 SSH stands for Secure Shell which provides a secure route for your local machine to connect to your Ubuntu Instance on AWS.
