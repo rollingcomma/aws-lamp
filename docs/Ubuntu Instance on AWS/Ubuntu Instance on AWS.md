@@ -3,6 +3,10 @@ layout: default
 title: Launch an Ubuntu Instance
 nav_order: 2
 ---
+
+Follow this section to launch and connect to an Ubuntu instance on AWS EC2 🙌
+
+---
 # Launch an Ubuntu Instance on AWS EC2
 {: .no_toc }
 
@@ -13,8 +17,6 @@ nav_order: 2
 {:toc}
 ---
 
-
-Follow this section to launch and connect to an Ubuntu instance on AWS EC2 🙌
 
 ## Introduction
 First let's clarify what these abbreviations mean:

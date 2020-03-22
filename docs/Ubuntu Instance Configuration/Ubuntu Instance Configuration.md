@@ -3,6 +3,10 @@ layout: default
 title: Configure your Ubuntu Instance
 nav_order: 3
 ---
+
+This section will cover the configuration of your Ubuntu instance on AWS EC2 to enhance usability 🙌
+
+---
 # Configure your Ubuntu Instance on AWS EC2
 {: .no_toc }
 
@@ -13,8 +17,6 @@ nav_order: 3
 {:toc}
 ---
 
-
-This section will cover the configuration of your Ubuntu instance on AWS EC2 to enhance usability 🙌
 
 ## Introduction
 AWS EC2 provides users with a robust set of options to configure Instances.
