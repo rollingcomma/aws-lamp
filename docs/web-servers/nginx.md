@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Nginx 
+title: Nginx web server
 parent: web Servers
 nav_order: 2
 ---
 
-# Nginx web Server
+# Nginx web server
 {: .no_toc }
 
 ## Table of contents
