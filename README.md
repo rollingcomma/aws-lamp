@@ -8,7 +8,7 @@
 - Sherlyn Zhang 
   -  Web servers
   -  Databases
-  -  Trouble shooting
+  -  Troubleshooting
 
 ### Purposes
 This project is for an assignment from BCIT business communication course. The original purpose is learning markdown syntax and practicing technical writing; however, as students on the road towards full stack developers, we decide to choose a topic that is tightly connected to our study domain, so we can append new chapters as we are continuing receiving fresh knowledge. It can serve as a notebook to ourself as well as an entrance level guidance for new web developing beginners. 
