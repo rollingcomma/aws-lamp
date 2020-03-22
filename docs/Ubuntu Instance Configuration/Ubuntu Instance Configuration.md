@@ -3,9 +3,17 @@ layout: default
 title: Configure your Ubuntu Instance
 nav_order: 3
 ---
-
-
 # Configure your Ubuntu Instance on AWS EC2
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
+
+
 This section will cover the configuration of your Ubuntu instance on AWS EC2 🙌
 
 ## Introduction

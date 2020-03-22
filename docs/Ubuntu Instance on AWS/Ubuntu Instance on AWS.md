@@ -3,8 +3,17 @@ layout: default
 title: Launch an Ubuntu Instance
 nav_order: 2
 ---
-
 # Launch an Ubuntu Instance on AWS EC2
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
+
+
 Follow this section to launch an Ubuntu instance on AWS EC2 🙌
 
 ## Introduction
