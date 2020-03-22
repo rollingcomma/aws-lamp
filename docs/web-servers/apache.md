@@ -42,7 +42,7 @@ you can enter the public dns or IP address of your instance in any browser to ch
 If the following page shows, then the web server has been installed successfully. 
 ![default](../../assets/images/default-page.png)
 
-If it fails to open the default page, check the [trouble shooting](/docs/troubleshooting/apache.md) section for solution.
+If it fails to open the default page, check the [troubleshooting](/docs/troubleshooting/apache.md) section for solution.
 
 # Configuration
 
