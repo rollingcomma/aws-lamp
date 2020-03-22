@@ -17,7 +17,21 @@ As AWS provides huge amount of solutions for implementing various web stacks, th
 
 ## Sections
 
-### Ubuntu virtual machine on AWS
+### Launch an Ubuntu Instance
+As you begin your foray into the realm of development you'll soon come to make use of Backend technologies for deploying services such as a Web Server or Database. The Web Server to host and serve your website and the Databse to store data for your Web Server to access and update.
+
+Of course you could decide to run your Web Server and Databse on your local machine, but this method leads to issues down the line if you intend to make your website publicly accessible.
+
+When you do eventually decide to show your work to the world, instead of hosting your website on your laptop, you can give your website to AWS for instant global hosting.
+
+This section will guide you through all the necessary steps to Launch a Ubuntu Instance on AWS which we will use later to deploy our Web Server and Database in the following sections.
+
+
+### Configure your Ubuntu Instance
+Once you have launched a Ubuntu Instance you will need to do some light configuration to make your life easier.
+
+This section will cover the configuration of the Elastic Block Storage (EBS) and Elastic IP services provided by AWS which will make using and scaling your Instance that much easier.
+
 
 ### Web servers
 A Web server can be software or hardware, or both of them working together to host websites. It's one of the core components of web stack. In this manual, we introduce the installation and setup of three top open-source web servers. 
@@ -40,12 +54,8 @@ MySQL was first released in 1995, since then it has gradually become the most po
 1. [MongoDB](/docs/databases/mongodb.md) 
 MongoDB, first released in 2009, is the most widely used NoSQL database. It is ranked first among document-oriented databases by DB-Engines. Being different from relational database using tables and restricted schema, MongoDB stores data objects as JSON-like documents inside a collection, thus it supports flexible data model that can accommodate data of any structure. 
 
-### EC2 instance configuration
-
-### Docker and docker compose
 
 ### References
 [Getting started with AWS EC2](https://aws.amazon.com/ec2/getting-started/)  
 [Install MongoDB Community Edition](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)  
 [Setting up Nginx and Nginx Plus as a web server and reverse proxy on AWS](https://www.nginx.com/blog/setting-up-nginx/)
-
