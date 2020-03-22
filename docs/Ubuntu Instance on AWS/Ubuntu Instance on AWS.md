@@ -5,6 +5,7 @@ nav_order: 2
 ---
 # Launch an Ubuntu Instance on AWS EC2
 Follow this section to launch and connect to an Ubuntu instance on AWS EC2 🙌
+
 {: .no_toc }
 
 ## Table of contents
