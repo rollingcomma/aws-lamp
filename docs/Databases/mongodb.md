@@ -49,7 +49,7 @@ $ sudo apt-key add server-4.2.asc
 ```
 It shall return OK.
 
-**Step 5.** Create a list file for MongoDB
+**Step 5.** Create a list file for MongoDB. 
 Use any text editor to open the source.list file in the directory */etc/apt*
 ```bash
 $ cd /etc/apt
