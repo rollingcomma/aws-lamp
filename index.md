@@ -11,7 +11,7 @@ permalink: /
 ---
 
 ## Introduction
-Welcome to AWS LAMP stack setup user manual. This user manual is designed for new web developers who plan to develop or deploy their web applications on Amazon Web Services (AWS). 
+Welcome to AWS LAMP stack setup user manual. This user manual is designed for new web developers who have general knowledge about web stack and plan to develop or deploy their web applications on Amazon Web Services (AWS).
 
 As AWS provides huge amount of solutions for implementing various web stacks, the official documentation on AWS is overwhelming for beginners; therefore, we create this user manual dedicated mostly on LAMP stack. Although this manual has referred multiple sections from official documents of AWS as well as that of associated technologies, such as MongoDB and Nginx, we try to improve the understandability by adding more screenshots and explanation for the commands and codes used.
 
