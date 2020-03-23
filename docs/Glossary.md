@@ -11,6 +11,12 @@ nav_order: 7
 {:toc}
 
 ---
+**LAMP**
+LAMP is a popular web service stack. Each letter refers to one of its four original core components. L - the Linux operating system, A - Apache HTTP web server, M - MySQL database; P - PHP or python backend programming language. The modern LAMP structure has adopted to more technologies and no longer limited to the original components.
+
+**Ubuntu**
+Ubuntu, a Linux distribution based on Debian, is a free and open-source operating system. It has three official released editions, Desktop, Server, and Core. 
+
 **AWS**
 AWS stands for Amazon Web Services, the cloud computing platform we will use for our LAMP stack.
 
