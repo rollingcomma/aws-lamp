@@ -68,12 +68,17 @@ Host ubuntu-aws
 * Tip: you can forward multiple ports by adding another `LocalForward` line in your ssh config
 
 
+
 ## Connect to your Instance
 1. Open your terminal
 2. Enter the following command: `ssh ubuntu-aws`
 3. Profit 🤑
 
-The terminal will output a long message which summarizes your instance details.
+**Caution:** if you get a ssh error "permissions are too open", run command below to update the private key's access permission
+```
+chmod 400 <path/privatekey.pem>
+```
+If everything works, the terminal will output a long message which summarizes your instance details.
 
 Your terminal is now connected to the terminal of your EC2 Instance over SSH.
 
